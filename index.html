@@ -1,0 +1,405 @@
+<html class="gr__adrianblan_co"><head>
+	<meta charset="utf-8">
+	<title>Christopher Coon</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/github.css">
+	<link rel="stylesheet" href="assets/css/simplegrid.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.1/css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="theme-color" content="#F44336"> 
+  
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/favicons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/favicons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/favicons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/favicons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="assets/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="assets/favicons/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="assets/favicons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="assets/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="assets/favicons/manifest.json">
+	<link rel="shortcut icon" href="assets/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#b91d47">
+	<meta name="msapplication-TileImage" content="assets/favicons/mstile-144x144.png">
+	<meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+  </head>
+  
+	<body class="home" data-gr-c-s-loaded="true">
+	  <div id="sidebar" class="">
+	<div id="mobile-logo">
+	  <a href="#home" onmouseover="toggleLogo('red')" onmouseout="toggleLogo('white')" onclick="$(window).scrollTo($('#home'), 400);" class="active">
+		<img id="logo" src="assets/images/logo.png">
+	  </a>
+	</div>
+	<div id="mobile-nav">
+	  <a href="#!" onclick="toggleMenu()" class="white">MENU</a>
+	</div>
+	<nav id="categories" role="navigation">
+	  <div class="menu">
+		<ul>
+		  <li class="introduction">
+			<a href="#introduction" onclick="$(window).scrollTo($('#introduction'), 400, {offset: -50});toggleMenu();" class="">Introduction</a>
+		  </li>
+		  <li class="portfolio">
+			<a href="#portfolio" onclick="$(window).scrollTo($('#portfolio'), 400, {offset: -50});toggleMenu();" class="">Portfolio</a>
+		  </li>
+		  <li class="contact">
+			<a href="#contact" onclick="$(window).scrollTo($('#contact'), 400, {offset: -50});toggleMenu();" class="">Contact</a>
+		  </li>
+		</ul>
+	  </div>
+	</nav>
+  </div>
+	  <div id="home" class="header">
+	<div id="video-container">
+	  <video onloadedmetadata="this.muted = true" playsinline="" autoplay="" muted="" loop="" class="coverr" poster="/images/typing.jpg">
+		  <source src="assets/images/typing.mp4" type="video/mp4">
+	  </video>
+	</div>
+	<div class="profile">
+	  <img class="circular" src="assets/images/FullSizeR_03.jpg" alt="Profile image">
+	  <h1>Christopher Coon</h1>
+	  <span class="subheading">Software Developer</span>
+	</div>
+	<div class="down-arrow" onclick="$(window).scrollTo($('#introduction'), 400, {offset: -50});">
+	  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="43px" height="33px" viewBox="0 0 43 33" enable-background="new 0 0 43 33" xml:space="preserve">
+		<g>
+		  <path fill="#FFFFFF" d="M0.093,1.294c0,3.176,0,7.686,0,8.77l21.408,21.502l21.406-21.502c0-0.836,0-6.08,0-8.77L21.501,22.796   L0.093,1.294z"></path>
+		</g>
+	  </svg>
+	</div>
+  </div>
+  
+  <div id="introduction" class="grid grid-pad">
+	<div class="col-1-1">
+	  <h2 class="heading">Introduction</h2>
+	  <p style="text-align:center">Hi, I'm Chris. I'm currently in school at UC Davis, studying to become a Software Developer.</p>
+	  <div style="text-align:center">
+		<a href="assets/files/Christopher W. Coon Resume .pdf" class="btn btn-lg" title="View Resumé">
+		  <i class="zmdi zmdi-file"></i> View Resume
+		</a>
+	  </div>
+	</div>
+  </div>
+  
+  <div class="portfolio-background">
+	<div id="portfolio" class="grid grid-pad">
+  
+	  <div class="col-1-1">
+		<h2 class="heading">Portfolio</h2>
+	  </div>
+  
+	  <div class="col-1-3">
+		<h3>Psychic</h3>
+		<a id="psychicModal" href="#psychic" class="modal-link">
+		  <div class="overlay-container">
+			<div class="overlay">
+			  <i class="zmdi zmdi-zoom-in"></i>
+			</div>
+			<img src="assets/images/psychic.jpg" alt="psychic">
+		  </div>
+		</a>
+	  </div>
+  
+	  <div class="col-1-3">
+		<h3>Infinity Stones Collector</h3>
+		<a id="infinityStonesModal" href="#infinityStones" class="modal-link ">
+		  <div class="overlay-container">
+			<div class="overlay"> 
+			  <i class="zmdi zmdi-zoom-in"></i>
+			</div>
+			<img src="assets/images/infinityStones.jpg" alt="infinityStones">
+		  </div>
+		</a>
+	  </div>
+  
+	  <div class="col-1-3">
+		<h3>Spider-Man Triva</h3>
+		<a id="spidermanTriviaModal" href="#spidermanTrivia" class="modal-link">
+		  <div class="overlay-container">
+			<div class="overlay">
+			  <i class="zmdi zmdi-zoom-in"></i>
+			</div>
+			<img src="assets/images/spiderman.png" alt="Spider-Man Trivia">
+		  </div>
+		</a>
+	  </div>
+  
+	  <div class="col-1-3">
+		<h3>Foodie</h3>
+		<a id="foodieModal" href="#foodie" class="modal-link">
+		  <div class="overlay-container">
+			<div class="overlay">
+			  <i class="zmdi zmdi-zoom-in"></i>
+			</div>
+			<img src="assets/images/foodie.jpg" alt="Foodie">
+		  </div>
+		</a>
+	  </div>
+  
+	  <div class="col-1-3">
+		<h3>Train Scheduler</h3>
+		<a id="trainSchedulerModal" href="#trainScheduler" class="modal-link">
+		  <div class="overlay-container">
+			<div class="overlay">
+			  <i class="zmdi zmdi-zoom-in"></i>
+			</div>
+			<img src="assets/images/trainScheduler.jpg" alt="trainScheduler">
+		  </div>
+		</a>
+	  </div>
+  
+	  <div class="col-1-3">
+		<h3>Giftastic</h3>
+		<a id="giftasticModal" href="#giftastic" class="modal-link">
+		  <div class="overlay-container">
+			<div class="overlay">
+			  <i class="zmdi zmdi-zoom-in"></i>
+			</div>
+			<img src="assets/images/giftastic.png" alt="giftastic Renderer">
+		  </div>
+		</a>
+	  </div>
+  
+	  <p class="portfolio-footer">The rest of my projects can be seen at <a href="https://github.com/chrisvoyager" title="My github profile">github.com/chrisvoyager</a></p>
+	</div>
+  </div>
+  
+  <div id="contact" class="grid grid-pad">
+	<div class="col-1-1">
+	  <h2 class="heading">Contact</h2>
+	  <div class="social">
+		<a href="mailto:chriscoonwilliam@gmail.com" title="chriscoonwilliam@gmail.com" style="left: 0%; right: 67%">
+		  <i class="zmdi zmdi-email"></i>
+		  <div class="social-text">chriscoonwilliam<wbr>@gmail.com</div>
+		</a>
+		<a href="https://github.com/chrisvoyager" title="github.com/chrisvoyager" style="left: 34%; right: 34%">
+		  <i class="zmdi zmdi-github-box"></i>
+		  <div class="social-text">github.com<wbr>/chrisvoyager</div>
+		</a>
+		<a href="http://linkedin.com/in/christopher-coon-voyager" title="linkedin.com/in/christopher-coon-voyager" style="left: 67%; right: 0%">
+		  <i class="zmdi zmdi-linkedin-box"></i>
+		  <div class="social-text">linkedin.com<wbr>/in/christopher-coon-voyager</div>
+		</a>
+	  </div>
+	</div>
+  </div>
+  
+  <!-- Modals -->
+  <div id="psychic" class="modal-container animated psychic-off" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(255, 255, 255); overflow-y: auto; z-index: -9999; opacity: 0; animation-duration: 0.4s;">
+	<div class="modal-background close-psychic modal-close"></div>
+	<div class="modal-content grid grid-pad">
+	  <div class="close-psychic modal-close modal-close-main"> 
+		<i class="zmdi zmdi-close"></i>
+	  </div>
+  
+	  <div class="col-1-1">
+		<h3 class="heading-modal">Psychic</h3>
+		<img src="assets/images/psychic.jpg" alt="Psychic">
+		<p>In this game, you will try to guess the letter that the computer is thinking of. You have 9 guesses to do so. To start, simply press a key that has the letter you want to guess. If you get it right, the computer will commend you, and if you get it wrong it will berate you. It will also display an image if you get it wrong that shows how big the computer's brain is.</p>
+		<div>
+		  <a href="https://github.com/chrisvoyager/psychic-game" class="btn btn-sm" title="Psychic on GitHub"><i class="zmdi zmdi-github-box"></i> View on GitHub</a>
+		</div>
+		<div>
+			<a href="https://chrisvoyager.github.io/Psychic-Game/" class="btn btn-sm" title="Psychic Website"><i class="zmdi zmdi-globe"></i> Psychic Website</a>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
+  <div id="infinityStones" class="modal-container animated infinityStones-off" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(255, 255, 255); overflow-y: auto; z-index: -9999; opacity: 0; animation-duration: 0.4s;">
+	<div class="modal-background close-infinityStones modal-close"></div>
+	<div class="modal-content grid grid-pad">
+	  <div class="close-infinityStones modal-close modal-close-main"> 
+		<i class="zmdi zmdi-close"></i>
+	  </div>
+  
+	  <div class="col-1-1">
+		<h3 class="heading-modal">Infinity Stones Collector</h3>
+		<img src="assets/images/infinityStones.jpg" alt="Infinity Stones Collector showcase">
+		<p>You will be given a random number at the start of the game. Try to use the Infinity Stones to match your points to that very number! The 4 stones you have are Power, Reality, Mind, and Time. The Number Value tied to each stone is random, and changes every game. You'll have to figure them out on your own!</p>
+
+			<p>Match your points to the random number to save the Galaxy. If you go over, Thanos wins, and you lose!</p>
+  
+		<div>
+		  <a href="https://github.com/chrisvoyager/unit-4-game" class="btn btn-sm" title="Infinity Stones Collector on GitHub"><i class="zmdi zmdi-github-box"></i> View on GitHub</a>
+		</div>
+		<div>
+			<a href="https://chrisvoyager.github.io/unit-4-game/" class="btn btn-sm" title="Infinity Stones Collector Website"><i class="zmdi zmdi-globe"></i> Infinity Stones Collector Website</a>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
+  <div id="spidermanTrivia" class="modal-container animated spidermanTrivia-off" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(255, 255, 255); overflow-y: auto; z-index: -9999; opacity: 0; animation-duration: 0.4s;">
+	<div class="modal-background close-spidermanTrivia modal-close"></div>
+	<div class="modal-content grid grid-pad">
+	  <div class="close-spidermanTrivia modal-close modal-close-main"> 
+		<i class="zmdi zmdi-close"></i>
+	  </div>
+  
+	  <div class="col-1-1">
+  
+		<h3 class="heading-modal">Spider-Man Trivia</h3>
+  
+		<img src="assets/images/spiderman.png" alt="spidermanTrivia showcase">
+  
+		<p>In this game, you have to answer 10 questions, about my favorite super hero, Spider-Man! You have 10 seconds to answer each questions. This was made by coding in Javascript and JQuery, while using HTML and CSS for the front end code. The main focus of this game is the use of buttons and timers, while also keeping score. Enjoy!</p>
+  
+		<div>
+		  <a href="https://chrisvoyager.github.io/Trivia-Game/" class="btn btn-sm" title="spidermanTrivia Website"><i class="zmdi zmdi-globe"></i> Spider-Man Trivia Website</a>
+		</div>
+		<div>
+			<a href="https://github.com/chrisvoyager/Trivia-Game" class="btn btn-sm" title="spidermanTrivia on GitHub"><i class="zmdi zmdi-github-box"></i> View on GitHub</a>
+		</div>
+  
+	  </div>
+	</div>
+  </div>
+  
+  <div id="foodie" class="modal-container animated foodie-off" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(255, 255, 255); overflow-y: auto; z-index: -9999; opacity: 0; animation-duration: 0.4s;">
+	<div class="modal-background close-foodie modal-close"></div>        
+	<div class="modal-content grid grid-pad">
+	  <div class="close-foodie modal-close modal-close-main"> 
+		<i class="zmdi zmdi-close"></i>
+	  </div>
+  
+	  <div class="col-1-1">
+		<h3 class="heading-modal">Foodie</h3>
+  
+		<p>Who doesn’t love food?? Find the best restaurants in the area with our app Foodie!</p>
+			<p>Our project allows users to type in their cuisine preference in their area, or in a location they are traveling to find the restaurants in that area. Anyone can search for cuisines in any area, however we also have a login system that will allow users to post ratings, comments and pictures after trying each restaurant.</p>
+				<p>I worked on the Front-End for this project.</p>
+		<div>
+		  <a href="https://tyronebayasen99.github.io/project-1/" class="btn btn-sm" title="foodie Website"><i class="zmdi zmdi-globe"></i> Foodie Website</a>
+		</div>
+		<div>
+		  <a href="https://github.com/chrisvoyager/foodie" class="btn btn-sm" title="foodie on GitHub"><i class="zmdi zmdi-github-box"></i> View on GitHub</a>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
+  <div id="trainScheduler" class="modal-container animated trainScheduler-off" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(255, 255, 255); overflow-y: auto; z-index: -9999; opacity: 0; animation-duration: 0.4s;">
+	<div class="modal-background close-trainScheduler modal-close"></div>
+	<div class="modal-content grid grid-pad">
+	  <div class="close-trainScheduler modal-close modal-close-main"> 
+		<i class="zmdi zmdi-close"></i>
+	  </div>
+  
+	  <div class="col-1-1">
+		<h3 class="heading-modal">Train Scheduler</h3>
+  
+	
+  
+		<p>In this application, there is a train schedule that incorporates Firebase to host arrival and departure data. It retrieves and manipulates this information with Moment.js. This website will provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.</p>
+  
+		<div>
+		  <a href="https://chrisvoyager.github.io/train-scheduler/" class="btn btn-sm" title="trainScheduler Website"><i class="zmdi zmdi-globe"></i> Train Scheduler Website</a>
+		</div>
+		<div>
+		  <a href="https://github.com/chrisvoyager/Train-Scheduler" class="btn btn-sm" title="trainScheduler on GitHub"><i class="zmdi zmdi-github-box"></i> Train Scheduler on GitHub</a>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
+  <div id="giftastic" class="modal-container animated giftastic-off" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(255, 255, 255); overflow-y: auto; z-index: -9999; opacity: 0; animation-duration: 0.4s;">
+	<div class="modal-background close-giftastic modal-close"></div>
+	<div class="modal-content grid grid-pad">
+	  <div class="close-giftastic modal-close modal-close-main"> 
+		<i class="zmdi zmdi-close"></i>
+	  </div>
+  
+	  <div class="col-1-1">
+		<h3 class="heading-modal">Giftastic</h3>
+		<img src="assets/images/giftastic.png" alt="giftastic Renderer">
+		<p>Welcome to GifTastic, a site with a whole plethora of GIF's! The theme for this project is based on my favorite game, Super Smash Bros Melee.</p>
+			<p>Simply click on one of the tabs at the top of the page with a Melee Character in it's name, or just add your own by typing a charachter name into the box and then clicking "Submit". Have fun!</p>
+  
+		<div>
+		  <a href="https://github.com/chrisvoyager/giftastic" class="btn btn-sm" title="giftastic on GitHub"><i class="zmdi zmdi-github-box"></i> View on GitHub</a>
+		</div>
+		<div>
+			<a href="https://chrisvoyager.github.io/giftastic/" class="btn btn-sm" title="giftastic Website"><i class="zmdi zmdi-globe"></i> Giftastic Website</a>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="assets/js/scale.fix.js"></script>
+  <script src="assets/js/scripts.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+  <script src="assets/js/animatedModal.min.js"></script>
+  
+  <script type="text/javascript">
+	$(document).ready(function() {
+	  $(document).on("scroll", throttle(onScroll, 50));
+	});
+  </script>
+  
+  
+  <script>
+	var col = "#FFF";
+	//col = "#F33446";
+  
+	$("#psychicModal").animatedModal({
+	  modalTarget: 'psychic',
+	  color: col,
+	  animatedIn: "fadeIn",
+	  animatedOut: "fadeOut",
+	  animationDuration: "0.4s"
+	});
+  
+	$("#infinityStonesModal").animatedModal({
+	  modalTarget: 'infinityStones',
+	  color: col,
+	  animatedIn: "fadeIn",
+	  animatedOut: "fadeOut",
+	  animationDuration: "0.4s"
+	});
+  
+	$("#spidermanTriviaModal").animatedModal({
+	  modalTarget: 'spidermanTrivia',
+	  color: col,
+	  animatedIn: "fadeIn",
+	  animatedOut: "fadeOut",
+	  animationDuration: "0.4s"
+	});
+  
+	$("#foodieModal").animatedModal({
+	  modalTarget: 'foodie',
+	  color: col,
+	  animatedIn: "fadeIn",
+	  animatedOut: "fadeOut",
+	  animationDuration: "0.4s"
+	});
+  
+	$("#trainSchedulerModal").animatedModal({
+	  modalTarget: 'trainScheduler',
+	  color: col,
+	  animatedIn: "fadeIn",
+	  animatedOut: "fadeOut",
+	  animationDuration: "0.4s"
+	});
+  
+	$("#giftasticModal").animatedModal({
+	  modalTarget: 'giftastic',
+	  color: col,
+	  animatedIn: "fadeIn",
+	  animatedOut: "fadeOut",
+	  animationDuration: "0.4s"
+	});
+  
+  </script>
+  
+  
+  </body></html>
